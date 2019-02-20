@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import Button from '../../../UI/Button/Button';
 
 const orderSummary = (props) => {
+
     const ingredientsSummary = Object.keys(props.ingredients)
         .map(key => {
             return (
@@ -25,4 +26,4 @@ const orderSummary = (props) => {
     )
 };
 
-export default orderSummary;
+export default React.memo(orderSummary);

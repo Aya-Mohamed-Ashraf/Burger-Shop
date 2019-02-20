@@ -80,6 +80,7 @@ class BurgerBuilder extends Component {
         for (let prop in disabledLessButtonInfo) {
             disabledLessButtonInfo[prop] = disabledLessButtonInfo[prop] <= 0;
         }
+
         return (
             <Fragment>
                 <Modal show={this.state.purchasing} modalClosed={this.purchaseCancelHandler}>
