@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../../Logo/Logo';
 import cssClasses from './DrawerToggle.module.css';
 
 const drawerToggle = (props) => (
