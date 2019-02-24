@@ -5,7 +5,7 @@ import SideDrawer from '../../UI/Navigation/SideDrawer/SideDrawer'
 
 const layout = (props) => {
 
-    const [showSideDrawer, setShowSideDrawer] = useState(true);
+    const [showSideDrawer, setShowSideDrawer] = useState(false);
     return (
         <Fragment>
             <Toolbar drawerToggleClicked={() => setShowSideDrawer(!showSideDrawer)} />
